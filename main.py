@@ -6,3 +6,5 @@ allInfo = json.loads(req.text)
 
 for oL in allInfo: 
     print(f"{oL['dayOfWeekString']}\n{oL['lessonNumberStart']} пара ({oL['beginLesson']} - {oL['endLesson']})\n{oL['auditorium']} ({oL['building']})\n{oL['discipline']} ({oL['kindOfWork']})\nПреподаватель: {oL['lecturer']} ({oL['lecturer_rank']})\nГруппа(ы): {oL['stream']}")
+
+print('ff')
